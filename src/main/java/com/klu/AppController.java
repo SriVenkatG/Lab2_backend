@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
+
 
 
 @RestController
 @CrossOrigin
-@RequestMapping("/springapp1")
+
 public class AppController {
 	@Autowired
 	Service s;
