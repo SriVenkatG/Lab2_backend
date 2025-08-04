@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/springapp1")
 public class AppController {
 	@Autowired
 	Service s;
